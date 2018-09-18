@@ -1,79 +1,181 @@
-Condado	Candidato	Votos
-Adams	SANDERS	300
-Asotin	SANDERS	1000
-Benton	SANDERS	6000
-Chelan	SANDERS	3000
-Clallam	SANDERS	5400
-Clark	SANDERS	25000
-Columbia	SANDERS	100
-Cowlitz	SANDERS	5800
-Douglas	SANDERS	1000
-Ferry	SANDERS	400
-Franklin	SANDERS	1700
-Garfield	SANDERS	100
-Grant	SANDERS	2000
-Grays Harbor	SANDERS	3500
-Island	SANDERS	5800
-Jefferson	SANDERS	4600
-King	SANDERS	118700
-Kitsap	SANDERS	16300
-Kittitas	SANDERS	1800
-Klickitat	SANDERS	1500
-Lewis	SANDERS	3200
-Lincoln	SANDERS	300
-Mason	SANDERS	3600
-Okanogan	SANDERS	2100
-Pacific	SANDERS	1500
-Pend Oreille	SANDERS	700
-Pierce	SANDERS	35700
-San Juan	SANDERS	2600
-Skagit	SANDERS	7800
-Skamania	SANDERS	700
-Snohomish	SANDERS	39900
-Spokane	SANDERS	25500
-Stevens	SANDERS	2000
-Thurston	SANDERS	17800
-Wahkiakum	SANDERS	300
-Walla Walla	SANDERS	2500
-Whatcom	SANDERS	18200
-Whitman	SANDERS	1900
-Yakima	SANDERS	6200
-Adams	CLINTON	300
-Asotin	CLINTON	1100
-Benton	CLINTON	6100
-Chelan	CLINTON	3400
-Clallam	CLINTON	5400
-Clark	CLINTON	24100
-Columbia	CLINTON	100
-Cowlitz	CLINTON	6100
-Douglas	CLINTON	1300
-Ferry	CLINTON	200
-Franklin	CLINTON	2000
-Garfield	CLINTON	0
-Grant	CLINTON	2300
-Grays Harbor	CLINTON	3500
-Island	CLINTON	6400
-Jefferson	CLINTON	3800
-King	CLINTON	159600
-Kitsap	CLINTON	16500
-Kittitas	CLINTON	1600
-Klickitat	CLINTON	1200
-Lewis	CLINTON	2700
-Lincoln	CLINTON	400
-Mason	CLINTON	3600
-Okanogan	CLINTON	1500
-Pacific	CLINTON	1500
-Pend Oreille	CLINTON	600
-Pierce	CLINTON	41200
-San Juan	CLINTON	1700
-Skagit	CLINTON	7300
-Skamania	CLINTON	500
-Snohomish	CLINTON	41700
-Spokane	CLINTON	24800
-Stevens	CLINTON	1700
-Thurston	CLINTON	16600
-Wahkiakum	CLINTON	200
-Walla Walla	CLINTON	2400
-Whatcom	CLINTON	12000
-Whitman	CLINTON	1600
-Yakima	CLINTON	7400
+EDAD	GANANCIA	LOCACION	TIPO VEHICULO	PREVIO
+21	139	Tionesta	Sedan	0
+23	1754	Sheffield	SUV	1
+24	1817	Sheffield	Hybrid	1
+25	104	Sheffield	Compact	0
+26	1273	Kane	Sedan	1
+27	1529	Sheffield	Sedan	1
+27	3082	Kane	Truck	0
+28	1951	Kane	SUV	1
+28	2692	Tionesta	Compact	0
+29	1206	Sheffield	Sedan	0
+29	1342	Kane	Sedan	2
+30	443	Kane	Sedan	3
+30	754	Olean	Sedan	2
+30	1621	Sheffield	Truck	1
+31	870	Tionesta	Sedan	1
+31	1174	Kane	Truck	0
+31	1412	Sheffield	Sedan	1
+31	1809	Tionesta	Sedan	1
+31	2415	Kane	Sedan	0
+32	1546	Sheffield	Truck	3
+32	2148	Tionesta	SUV	2
+32	2207	Sheffield	Compact	0
+32	2252	Tionesta	SUV	0
+33	1428	Kane	SUV	2
+33	1889	Olean	SUV	1
+34	1166	Olean	Sedan	1
+34	132	Tionesta	Sedan	1
+34	2265	Olean	Sedan	0
+35	1323	Olean	Sedan	2
+35	1761	Kane	Sedan	1
+35	1919	Tionesta	SUV	1
+36	2357	Kane	SUV	2
+36	2866	Kane	Sedan	1
+37	732	Olean	SUV	1
+37	1464	Olean	Sedan	3
+37	1626	Tionesta	Compact	4
+37	1761	Olean	SUV	1
+37	1915	Tionesta	SUV	2
+37	2119	Kane	Hybrid	1
+38	1766	Sheffield	SUV	0
+38	2201	Sheffield	Truck	2
+39	996	Kane	Compact	2
+39	2813	Tionesta	SUV	0
+40	323	Kane	Sedan	0
+40	352	Sheffield	Compact	0
+40	482	Olean	Sedan	1
+40	1144	Tionesta	Truck	0
+40	$ 149	Sheffield	Compact	0
+40	1509	Kane	SUV	2
+40	1638	Sheffield	Sedan	0
+40	1961	Sheffield	Sedan	1
+40	2127	Olean	Truck	0
+40	243	Tionesta	Sedan	1
+41	1704	Sheffield	Sedan	1
+41	1876	Kane	Sedan	2
+41	201	Tionesta	Sedan	1
+41	2165	Tionesta	SUV	0
+41	2231	Tionesta	SUV	2
+41	2389	Kane	Truck	1
+42	335	Olean	SUV	1
+42	963	Kane	Sedan	0
+42	1298	Tionesta	Sedan	1
+42	141	Kane	SUV	2
+42	1553	Tionesta	Compact	0
+42	1648	Olean	SUV	0
+42	2071	Kane	SUV	0
+42	2116	Kane	Compact	2
+43	15	Tionesta	Sedan	0
+43	1549	Kane	SUV	2
+43	2348	Tionesta	Sedan	0
+43	2498	Tionesta	SUV	1
+44	294	Kane	SUV	1
+44	1115	Kane	Truck	0
+44	1124	Tionesta	Compact	2
+44	1532	Tionesta	SUV	3
+44	1688	Kane	Sedan	4
+44	1822	Kane	SUV	0
+44	1897	Sheffield	Compact	0
+44	2445	Kane	SUV	0
+44	2886	Olean	SUV	1
+45	820	Kane	Compact	1
+45	1266	Olean	Sedan	0
+45	1741	Olean	Compact	2
+45	1772	Olean	Compact	1
+45	1932	Tionesta	Sedan	1
+45	235	Sheffield	Compact	0
+45	2422	Kane	Sedan	1
+45	2446	Olean	Compact	1
+46	369	Olean	Sedan	1
+46	978	Kane	Sedan	1
+46	1238	Sheffield	Compact	1
+46	1818	Kane	SUV	0
+46	1824	Olean	Truck	0
+46	1907	Olean	Sedan	0
+46	$ 194	Kane	Sedan	0
+46	194	Kane	Truck	3
+46	2197	Sheffield	Sedan	1
+46	2646	Tionesta	Sedan	2
+47	1461	Kane	Sedan	0
+47	1731	Tionesta	Compact	0
+47	223	Tionesta	Sedan	1
+47	2341	Sheffield	SUV	1
+47	3292	Olean	Sedan	2
+48	1108	Sheffield	Sedan	1
+48	1295	Sheffield	SUV	1
+48	1344	Sheffield	SUV	0
+48	1906	Kane	Sedan	1
+48	1952	Tionesta	Compact	1
+48	207	Kane	SUV	1
+48	2454	Kane	Sedan	1
+49	1606	Olean	Compact	0
+49	168	Kane	SUV	3
+49	1827	Tionesta	Truck	3
+49	1915	Tionesta	SUV	1
+49	2084	Tionesta	Sedan	0
+49	2639	Sheffield	SUV	0
+50	842	Kane	SUV	0
+50	1963	Sheffield	Sedan	1
+50	2059	Sheffield	Sedan	1
+50	2338	Tionesta	SUV	0
+50	3043	Kane	Sedan	0
+51	1059	Kane	SUV	1
+51	1674	Sheffield	Sedan	1
+51	1807	Tionesta	Sedan	1
+51	2056	Sheffield	Hybrid	0
+51	2236	Tionesta	SUV	2
+51	2928	Kane	SUV	0
+52	1269	Tionesta	Sedan	1
+52	1717	Sheffield	SUV	3
+52	1797	Kane	Sedan	1
+52	1955	Olean	Hybrid	2
+52	2199	Tionesta	SUV	0
+52	2482	Olean	Compact	0
+52	2701	Sheffield	SUV	0
+52	321	Olean	Truck	4
+53	377	Olean	SUV	1
+53	122	Olean	Sedan	0
+53	$ 140	Tionesta	SUV	2
+53	2175	Olean	Sedan	1
+54	1118	Sheffield	Compact	1
+54	2584	Olean	Compact	2
+54	2666	Tionesta	Truck	0
+54	2991	Tionesta	SUV	0
+55	934	Sheffield	Truck	1
+55	2063	Kane	SUV	1
+55	2083	Sheffield	Sedan	1
+55	2856	Olean	Hybrid	1
+55	2989	Tionesta	Compact	1
+56	910	Sheffield	SUV	0
+56	1536	Kane	SUV	0
+56	1957	Sheffield	SUV	1
+56	224	Olean	Sedan	0
+56	2695	Kane	Sedan	2
+57	1325	Olean	Sedan	1
+57	225	Sheffield	Sedan	2
+57	2279	Sheffield	Hybrid	1
+57	2626	Sheffield	Sedan	2
+58	1501	Sheffield	Hybrid	1
+58	1752	Kane	Sedan	3
+58	2058	Kane	SUV	1
+58	237	Tionesta	Compact	0
+58	2637	Sheffield	SUV	1
+59	1426	Sheffield	Sedan	0
+59	2944	Olean	SUV	2
+60	2147	Olean	Compact	2
+61	1973	Kane	SUV	3
+61	2502	Olean	Sedan	0
+62	783	Sheffield	Hybrid	1
+62	1538	Olean	Truck	1
+63	2339	Olean	Compact	1
+64	27	Kane	Truck	0
+65	2222	Kane	Truck	1
+65	2597	Sheffield	Truck	0
+65	2742	Tionesta	SUV	2
+68	1837	Sheffield	Sedan	1
+69	2842	Kane	SUV	0
+70	2434	Olean	Sedan	4
+72	164	Olean	Sedan	1
+72	1821	Tionesta	SUV	1
+73	2487	Olean	Compact	4
