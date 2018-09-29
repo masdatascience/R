@@ -54,4 +54,17 @@ Basicamente los comentarios tambien afectan al lo anterior descrito.
 4. Cambiar nombres en las tablas para que esten en español
 5. Adicionar un filtro en la hoja detalle
 6. dEscribir o hacer que ellos hagan el modelo entidad relacion , que no lo migren directo
+7. Describirles que ordenen los datos tambien 
 
+##################################################
+
+modelo avanzado de PBIX
+
+##################################################
+
+
+1.  Adicionar diferentes tipos de filtros
+2.  Asegurar que los nombres de las tablas y los indicadores que tengan el mismo nombre por ejemplo ventar vs margen , y los indicadores dicen Sales , Margin
+3. tratar que tengan o todos mayusculas o al menos la primera maysuculas
+4. Adicionar visualizaciones de mapas , pie/donut chart
+5. Los titulos siempre encima del grafico , no debajo 
