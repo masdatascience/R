@@ -1,0 +1,57 @@
+OBSERVACION 1
+
+##################################################
+
+COMENTARIOS SOBRE GIT HUB
+
+##################################################
+
+1.Generales , seguir la numeración, por ejemplo si estan en la sección 3 , no es necesario escribir 1.1 sino 3.1
+2. Agregaria un punto 0. que es en el visor de SQL server management studio que se conecten e idncarles a que base de datos se coenctaran 
+
+##TALLER 1: 
+
+###1.IDENTIFICACION DE LAS TABLAS	
+1.1 Adicional al final la clave
+
+###2.DISEÑO DE REPORTES
+1.2 ¿cuales tablas?, seria tambien interesante adicionarles una vista solo para que entienda el concepto , ese lo explico yo, pero detallar que tablas
+1.4 ¿cual es el campo de la venta valorizada?, detallarlo asi ,
+__1.4.Crear una Matriz que permita visualizar la venta valorizada [nombre de campo] de los clientes[tabla] en sus respectivos paises [campo]__
+Mismo punto para los siguientee 1.5 al 1.9 
+
+Adicionaste ujna nota, podrias colocar como recomendación: y describir como se puede usar, si esto se usa mas adelante, describi como se puede usar y decir tambien que se cubrira mas adelante
+
+
+##TALLER 2: MODELAMIENTO AVANZADO DE LAS VENTAS POR CLIENTE, ARTICULO Y SU UBICACION GEOGRAFICA
+
+mismo para todos, nombre de talbas y campos usados, detalle de formulas logicas , pro ejemplo A + B + C , no Campo.A + campo.B + campo.C
+
+
+###2.DISEÑO DE REPORTES Y METRICAS
+1. Se creará en modeling, nueva tabla
+
+
+Muy importante hablarles en dAX, muy importante integrar temas que sabes que son muy improtantes para nosotros como :
+1. TOTALYTD() 
+2. Calculos con variables, por ejemplo cuando la variable es dinamica como hemos hecho con RAF
+3. sumatorias por subconjuntos de datos especificos, como lo hiciste la ultima vez con el pbix que te di de sumar solo proyectos, requerimientos, etc. 
+4. en pocas palabras, plasmar con tu experiencia cuales son los comandos en DAX mas usados
+
+
+##################################################
+
+modelo 1 de PBIX
+
+##################################################
+
+
+Basicamente los comentarios tambien afectan al lo anterior descrito.
+
+1. Adicionar valores en graficas
+2. Adicionar 0 en vez de nulos, para que las gente entienda eso
+3. Filtrar filas con nulos, idem 2 
+4. Cambiar nombres en las tablas para que esten en español
+5. Adicionar un filtro en la hoja detalle
+6. dEscribir o hacer que ellos hagan el modelo entidad relacion , que no lo migren directo
+
