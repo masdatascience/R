@@ -1,3 +1,29 @@
+﻿OBSERVACIÓN 2
+
+##################################################
+
+COMENTARIOS SOBRE GIT HUB
+
+##################################################
+
+1. Revisar resultado final : https://github.com/masdatascience/pbi/wiki/Taller-1----Nuestro-primer-Dashboard vs lo enviado. Con el objetivo de documentar de la misma forma, si se neceista el codigo de lo documentado es el siguiente https://github.com/masdatascience/R/raw/master/notas/codigo_fuente.txt
+De este primer taller basico es necesario describir como generan los objetos , donde se colocan los campos, etc. , ya que me toco en vivo decirles esto .
+Esto se aplique a los demas github.
+2.Para el taller avanzado , cambiar el nombre de las tablas a unas tablas que se entiendan en español y que  se apliquen para los demás 
+3.Es necesario indicar como se utilizan los campos en r, en donde deben posicionarse y alertarlos que si no tienen instaladas las librerias, es necesario identificar cual es el motor de R e ir alla a instalarlas
+4.Es necesario tambien indicarles los formatos y como se utilizan , y que cada formato de los objetos es diferente
+5.adicionar las imagenes que se requieran e invocarlas como se hizo en el taller 1 
+![](https://raw.githubusercontent.com/masdatascience/R/master/Imagenes/PBI/resultado_taller_1.PNG)
+6. te dejo los enlaces para que veas como se ven en este momento:
+
+Taller 1 (El de referencia) https://github.com/masdatascience/pbi/wiki/Taller-1----Nuestro-primer-Dashboard
+Taller 2  https://github.com/masdatascience/pbi/wiki/Taller-2---Modelo-m%C3%A1s-completo
+Taller 3 https://github.com/masdatascience/pbi/wiki/Taller-3---Correlacoiones-y-clustering
+Taller 4
+
+
+7. Partiria el taller 3 en varios para asegurar los cluster, decisiones, y entender como es el tema
+
 OBSERVACION 1
 
 ##################################################
