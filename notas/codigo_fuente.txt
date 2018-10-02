@@ -1,0 +1,80 @@
+# TALLER 1 
+Creando nuestro primer Dashboard
+![](https://raw.githubusercontent.com/masdatascience/R/master/Imagenes/PBI/resultado_taller_1.PNG)
+
+### 1. Entorno del Data Warehouse
+
+__1.1. Ejecutar Sql Server Management Studio__ 
+
+La conexión es a: __masdatascience.database.windows.net__ el usuario de la bd: __lectura__  la contraseña es: __Uuxwp7Mcxo7Khy?__
+El data warehouse que usaremos es: __dwh2014bac__  
+
+__1.2. Reconocimiento base de datos__
+
+Ingreso al entorno de base de datos, para hacer consulta y sensibilizarnos de los datos a usarse
+
+__1.3. Ingreso a Power BI y cargar tablas__
+
+Se ingresará power BI y se seleccionará la opción obtener datos, luego de esto se selecciona el conector SQL server, se seleciona la base de datos indicada y las tablas DimCustomer, DimDate, DimProduct, DimPromotion, DimSalesReason, DimSalesTerritory, FacInternetSales, FactInternetSalesReason
+
+
+***
+
+
+### 2. Conectese al Datawarehouse desde Power BI
+
+__2.1. Conectarse a la fuente de datos__
+
+Seleccionar fuente de datos y conectarse, se obtienen las tablas requeridas (descritas en el punto 1.3)
+
+__2.2. ¿Donde quedaron las tablas que cargue?__
+
+Estas se puede visualizar al lado derecho, en campos, con base en estas se generará toda la información.
+Como todo no es magia, a la izquierda se encuentra una opción de relaciones donde se pueden identificar como Power BI entendio la relación de los campos y genero unas estrellas de información, por ejemplo visualice: DimCustomer, DimProduct, DimPromotion, DimSalesTerritory, FacInternetSales__
+
+__2.3. ¿Que objetos graficos tengo?__
+
+A la derecha se puede visualizar los visuar  los objetos de visualización, los cuales  son el apoyo técnico y funcional para la elaboración de los reportes__
+
+
+
+***
+
+### 3. Crear nuestro primer reporte
+
+__3.1. Crear Matriz de análisis__
+
+Crear una Matriz que permita visualizar la cantidad de ventas (FacInternetSales[SalesAmount]) de los clientes (Dimcustomer[Firstname]) en sus respectivos paises (DimSalesTerritory[SalesTerritoryCountry])
+
+__3.2. Crear visualización de columnas__
+
+Crear un diagrama de columnas con titulo, donde se puedan visualizar las ventas en cantidades (FacInternetSales[SalesAmount]) por género de los clientes (DimCustomer[Gender]) y ubicación geográfica (DimSalesTerritory[SalesTerritoryCountry])
+
+__3.3. Crear una tabla__
+
+Crear una Tabla donde se visualicen las cantidades vendidas (FacInternetSales[OrderQuantity]), la valorización de las mismas (FacInternetSales[SalesAmount]) y los costos (FacInternetSales[TotalProductCost]) de cada articulos (DimProduct[EnglishProductName])
+
+__3.4. Crear un Filtro__
+
+Crearle a la consulta anterior un filtro por los tipos de promociones existentes (Dimpromotion[EnglishPromotionName])__
+
+
+__3.5  Crear una pestaña__
+
+Se genera una nueva pestaña para visualizar el detalle de los clientes
+
+__3.6. Crear una tabla en la nueva pestaña "detalle"__
+
+Crear una tabla con todas las caracteristicas demograficas del cliente, incluido su nombre y el monto de la venta (DimCustomer[Names Full],[Gender],[MaritalStatus],[YearlyIncome],[TotalChildren],[SpanishEducation],[SpanishOcupation],[ModelName],[SalesAmount])
+
+__3.7. Exportar la tabla anterior__
+
+__3.8. Crear filtro de Países__
+
+Crear un objeto de filtro de paises, usando el campo DimSalesTerritory[SalesTerritoryCountry]
+
+
+***
+
+
+*Recomendación: el archivo exportado guardelo, ya que se usará como insumo para análisis a nivel de minería, este archivo desde un pbix nuevo se importa y quedará visible como una tabla de consulta*  
