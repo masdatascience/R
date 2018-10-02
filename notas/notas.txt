@@ -1,0 +1,114 @@
+OBSERVACION 1
+
+##################################################
+
+COMENTARIOS SOBRE GIT HUB
+
+##################################################
+
+1.Generales , seguir la numeración, por ejemplo si estan en la sección 3 , no es necesario escribir 1.1 sino 3.1
+2. Agregaria un punto 0. que es en el visor de SQL server management studio que se conecten e idncarles a que base de datos se coenctaran
+-----
+3. He creado este espacio de trabajo, por favor trabajar alli https://1drv.ms/f/s!AkMQSLAMTlFglg7db8wYzX5H8bX5 para que estemos alineados más rapidamente
+
+
+##TALLER 1: 
+
+###1.IDENTIFICACION DE LAS TABLAS	
+1.1 Adicional al final la clave
+
+###2.DISEÑO DE REPORTES
+1.2 ¿cuales tablas?, seria tambien interesante adicionarles una vista solo para que entienda el concepto , ese lo explico yo, pero detallar que tablas
+1.4 ¿cual es el campo de la venta valorizada?, detallarlo asi ,
+__1.4.Crear una Matriz que permita visualizar la venta valorizada [nombre de campo] de los clientes[tabla] en sus respectivos paises [campo]__
+Mismo punto para los siguientee 1.5 al 1.9 
+
+Adicionaste ujna nota, podrias colocar como recomendación: y describir como se puede usar, si esto se usa mas adelante, describi como se puede usar y decir tambien que se cubrira mas adelante
+
+
+##TALLER 2: MODELAMIENTO AVANZADO DE LAS VENTAS POR CLIENTE, ARTICULO Y SU UBICACION GEOGRAFICA
+
+mismo para todos, nombre de talbas y campos usados, detalle de formulas logicas , pro ejemplo A + B + C , no Campo.A + campo.B + campo.C
+
+
+###2.DISEÑO DE REPORTES Y METRICAS
+1. Se creará en modeling, nueva tabla
+
+
+Muy importante hablarles en dAX, muy importante integrar temas que sabes que son muy improtantes para nosotros como :
+1. TOTALYTD() 
+2. Calculos con variables, por ejemplo cuando la variable es dinamica como hemos hecho con RAF
+3. sumatorias por subconjuntos de datos especificos, como lo hiciste la ultima vez con el pbix que te di de sumar solo proyectos, requerimientos, etc. 
+4. en pocas palabras, plasmar con tu experiencia cuales son los comandos en DAX mas usados
+
+
+##################################################
+
+modelo 1 de PBIX
+
+##################################################
+
+
+Basicamente los comentarios tambien afectan al lo anterior descrito.
+
+1. Adicionar valores en graficas
+2. Adicionar 0 en vez de nulos, para que las gente entienda eso
+3. Filtrar filas con nulos, idem 2 
+4. Cambiar nombres en las tablas para que esten en español
+5. Adicionar un filtro en la hoja detalle
+6. dEscribir o hacer que ellos hagan el modelo entidad relacion , que no lo migren directo
+7. Describirles que ordenen los datos tambien 
+
+##################################################
+
+modelo avanzado de PBIX
+
+##################################################
+
+
+1.  Adicionar diferentes tipos de filtros
+2.  Asegurar que los nombres de las tablas y los indicadores que tengan el mismo nombre por ejemplo ventar vs margen , y los indicadores dicen Sales , Margin
+3. tratar que tengan o todos mayusculas o al menos la primera maysuculas
+4. Adicionar visualizaciones de mapas , pie/donut chart
+5. Los titulos siempre encima del grafico , no debajo 
+---
+6. Adicionar barra horizontal tambine en el grafico de de dispesión 
+7. Colocar el titulo mismo tamaño mismo fondo , mismo color en todas las graficas, si es necesario agrandar el tamaño de power bi horizontal sin problemas
+8. Agregar en la tabla o grafico que se pueda saltar a un nivel de detalle, de tal forma que haga uso del tema de los bookmarks
+9. Agregar varios tipos de filtros, par aque se entienda las opciones que hay
+10. Revisa este enlace https://community.powerbi.com/t5/Data-Stories-Gallery/bd-p/DataStoriesGallery como referencia de visualizaciones interesantes
+
+##################################################
+
+CORRELACIONES / DECISION TREE
+
+##################################################
+
+Adicionar en github las librerias que se utilizan en R para que funcione, p . ej. corrplot
+Mantener estandar, titulos, detalle de la data, etc. 
+ 
+1. Correlaciones _
+1.¿por que no se usa la base de datos? sino un archivo CSV , cual seria el select en la base de datos para este archivo?
+2. me gusta el analisis, en donde no aplica la correlacion, la pregunta es , en donde si aplica? se necesitaria tambine un ejemplo al respecto y entender que se puede hacer con la correlacion una vez aplicada como es la prediccion con base en un modelo de regresión, guiate por el html que te envie de regresion lineal alli lo explican muy bien. Esto lo puedes describir en el archivo de git hub como objetivo de los analisis que se haran para correlación, donde no se detecta que no es necesaario aplicar descuentos por correlacion, y ahora que identiifcamos una correlación por ejemmplo sales vs margen se puede hacer una predicción, etc. 
+
+
+2- Arbol de decision
+Se ve muy interesante l o descrito , por favor generar un modelo más de analisis de arboles como distribución de compra demografico por genero o por tipo de producto, basicamente para asegurar que se entienda el concepto.
+
+Carlos por favor adicionar tambien el punto de clustering, en donde basicamente te explico paso a paso a continuación copmo ussarlo
+# vamos a utilizar el dataset de flores, por ende se asigna la variable
+flores <- iris
+ggplot(flores, aes(Petal.Length, Petal.Width, color = Species)) + geom_point()
+
+# Ahora vamos a utilizar clustering , por ende son 3 especies, generemos un agrupacion por alli
+set.seed(0)
+# genero mi cluster
+flores_clustering <- kmeans(flores[, 1:4], 3, nstart = 30) 
+# me compare la información que clasifica contra la real , simplemente es una validación 
+# obtengo falsos positivos 
+table(flores_clustering$cluster, flores$Species)
+
+# ahora miremos como agrupo con la libreria especifica para agrupacion de clusters 
+library(cluster) 
+clusplot(iris, irisCluster$cluster, color=TRUE, shade=TRUE, labels=0,lines=0, )
+
