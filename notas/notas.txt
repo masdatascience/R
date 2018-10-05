@@ -1,4 +1,18 @@
-﻿OBSERVACIÓN 2
+﻿OBSERVACIÓN 3
+
+##################################################
+
+COMENTARIOS SOBRE GIT HUB
+
+##################################################
+
+1. Excelente avance, se nota que dejaste que alguien más no técnico lo leyera. Importante carlos la ortografica, que en ese puntos finos no se nos desvie la gente
+2. ¿se pueden agrupar el taller 2?  , yo veo que si, con el mismo objetivo que lo hice con el 1 , para que sea mas facil que las personas capten que estan avanzando y no vean una biblia adelante. 
+3. Listas las actualizaciones , cada vez que uses el # no pueden quedar pegados porque no se visualiza, le adicione tambien saltos de linea para facilitar la lectura, mañana te lo muestro
+
+
+
+OBSERVACIÓN 2
 
 ##################################################
 
